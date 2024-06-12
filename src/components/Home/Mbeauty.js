@@ -1,6 +1,6 @@
 import styled from "styled-components"
 import { Img } from "./Home"
-import 자연1 from "../../Img/자연3.jpg"
+import 지구 from "../../Img/지구.jpg"
 import { P } from "../../All/All"
 const MBeautyC = styled.div`
 position: absolute;
@@ -52,7 +52,7 @@ function MBeauty({sideheight}){
         <>
             <MBeautyC sideheight={sideheight}>
                 <Beautycontent>
-                    <Img src={자연1}/>
+                    <Img src={지구}/>
                     <P>애경에 많은 관심 부탁드립니다!!</P> 
                 </Beautycontent>
             </MBeautyC>

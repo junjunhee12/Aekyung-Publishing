@@ -258,7 +258,7 @@ const SideBoxIcon = styled.div`
 const Bar = styled.div`
     width: 100%;
     height:  ${(props) => props.navwidth ? "300px" : "0px"};
-    background-color: white;
+    background-color: #E0E0E0;
     position: absolute;
     left: 0;
     top: 100px;

@@ -1,8 +1,12 @@
 import styled from "styled-components"
 import { Container, H2, HomeP, P, Span } from "../../All/All"
-import 자연 from "../../Img/자연4.png"
-import 자연1 from "../../Img/자연3.jpg"
-import 자연2 from "../../Img/자연1.jpg"
+import 자연 from "../../Img/자연4.png" // 유지
+// import 자연1 from "../../Img/자연3.jpg"
+// import 자연2 from "../../Img/자연1.jpg"
+import 환경 from "../../Img/환경.jpg"
+import 사회 from "../../Img/사회.png"
+import 지배구조 from "../../Img/지배구조.jpg"
+
 import { useLanguage } from "../../LanguageContext/LanguageContext"
 import { FaArrowDown,FaArrowUp  } from 'react-icons/fa';
 import { SideBoxex, SideBoxexcontent } from "../../Header";
@@ -250,7 +254,7 @@ const content = [
         ],
     },
 ];
-const img = [자연, 자연1, 자연2 ]
+const img = [환경, 사회, 지배구조 ]
 
 const links = ["/Page1", "/Page2", "/Page3", "/Page4", "/Page5"];
 function Home(){

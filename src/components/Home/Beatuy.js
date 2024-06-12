@@ -3,15 +3,15 @@ import styled from "styled-components"
 import { H2, HomeP, P } from "../../All/All"
 import { Link } from "react-router-dom"
 import { GO, Img } from "../Home/Home"
-import 자연 from "../../Img/자연4.png"
-import 자연1 from "../../Img/자연3.jpg"
-import 자연2 from "../../Img/자연1.jpg"
-import 카페1 from "../../Img/카페1.jpg"
-import 카페2 from "../../Img/카페2.jpg"
-import 카페3 from "../../Img/카페3.jpg"
-import 웨딩1 from "../../Img/웨딩1.jpg"
-import 웨딩2 from "../../Img/웨딩2.jpg"
-import 웨딩3 from "../../Img/웨딩3.jpg"
+import 강아지1 from "../../Img/강아지1.jpg"
+import 강아지2 from "../../Img/강아지2.jpg"
+import 강아지3 from "../../Img/강아지3.jpg"
+import 고양이1 from "../../Img/고양이1.jpg"
+import 고양이2 from "../../Img/고양이2.jpg"
+import 고양이3 from "../../Img/고양이3.jpg"
+import 호랑이1 from "../../Img/호랑이1.jpg"
+import 호랑이2 from "../../Img/호랑이2.jpg"
+import 호랑이3 from "../../Img/호랑이3.jpg"
 import { Swiper, SwiperSlide } from 'swiper/react';
 
 import 'swiper/css';
@@ -31,11 +31,12 @@ const BeautyC = styled.div`
         background-color: white;
         padding: 100px 1rem;
         margin: 0 auto ; 
-        border-bottom: ${(props) => (props.isLast ? 'none' : '1px solid black')};
+        border-top: 1px solid black;
+        /* border-bottom: ${(props) => (props.isLast ? 'none' : '1px solid black')}; */
         @media (max-width: 1280px) {
-            padding: 120px 1rem;
-            height: 70vh;
-            border-bottom: ${(props) => (props.isLast ? 'none' : '1px solid black')};
+            padding: 50px 1rem;
+            height: 75vh;
+            /* border-bottom: ${(props) => (props.isLast ? 'none' : '1px solid black')}; */
         }
 `
 
@@ -111,9 +112,9 @@ const click ={
     Eng:["Click Here"]
 }
 const swiperimg = [
-        [자연, 자연2, 자연1],
-        [카페1, 카페2, 카페3],
-        [웨딩1,웨딩2,웨딩3]
+        [강아지1, 고양이1, 호랑이1],
+        [강아지2, 고양이2, 호랑이2],
+        [강아지3,고양이3,호랑이3]
     
 ]
 const content1 = [

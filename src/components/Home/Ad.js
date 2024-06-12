@@ -1,15 +1,16 @@
 import styled from "styled-components";
 import { Container, P } from "../../All/All";
 import { Img } from "./Home";
-import 자연 from "../../Img/자연1.jpg";
+// import 자연 from "../../Img/자연1.jpg";
+import 광고 from "../../Img/광고.png";
 import { useLanguage } from "../../LanguageContext/LanguageContext";
 
 const Adbox = styled.div`
   width: 100%;
-  height: 80vh;
+  height: 100vh;
   background-color: #eee;
   @media (max-width : 499px){
-    height: 110vh;
+    height: 130vh;
   }
 `;
 
@@ -114,7 +115,7 @@ function Ad() {
         <Adbox>
           <Adboxwrap>
             <Adboxleft>
-              <Img src={자연} />
+              <Img src={광고} />
             </Adboxleft>
             <Adboxright>
               <AdboxrightTop>
