@@ -1,0 +1,25 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  user-select: none;
+  /* overflow-y: auto; */
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  text-align: center;
+}
+
+body {
+  overflow-y: scroll; 
+}
+
+body::-webkit-scrollbar {
+  display: none; 
+}
