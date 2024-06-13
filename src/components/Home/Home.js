@@ -130,7 +130,7 @@ const MobImgwrp = styled.div`
     width: 100%;
     height: 350px;
     @media (max-width :499px){
-        height: 350px;
+        height: 250px;
     }
 `
 

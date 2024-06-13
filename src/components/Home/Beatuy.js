@@ -35,7 +35,7 @@ const BeautyC = styled.div`
         /* border-bottom: ${(props) => (props.isLast ? 'none' : '1px solid black')}; */
         @media (max-width: 1280px) {
             padding: 50px 1rem;
-            height: 75vh;
+            height: 45vh;
             /* border-bottom: ${(props) => (props.isLast ? 'none' : '1px solid black')}; */
         }
 `
@@ -45,9 +45,14 @@ const Beautycontent = styled.div`
     height: 100%;
     display: flex;
     @media (max-width : 1280px){
-        flex-direction: column;
-        justify-content: center;
+        height: 100%;
+        /* flex-direction: column; */
+        justify-content: space-between;
+        align-items: center;
         /* justify-content: center; */
+    }
+    @media (max-width : 499px){
+        justify-content: space-between;
     }
 `
 const Beautyleft = styled.div`
@@ -65,13 +70,14 @@ const Beautyleft = styled.div`
     }
     & > ${H2}{
     border: none;
+    
 }
 
     
 `
 const Beautyright = styled.div`
-    width: 60%;
-    height: 100%;
+    width: 50%;
+    /* height: 100%; */
     /* height: 700px; */
     /* background-color: yellowgreen; */
     display: flex;
