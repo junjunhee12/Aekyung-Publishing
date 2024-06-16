@@ -72,7 +72,7 @@ const HomeTop = styled.div`
     align-items: center;
     border-bottom: 1px solid black;
     @media (max-width : 1280px){
-        height: 100vh;
+        height: 110vh;
         display: block;
         border-bottom: none;
     }
@@ -162,11 +162,9 @@ export const GO = styled.div`
         a{
             color: black;
         }
-        &:hover{
+        &:hover {
             background-color: black;
-            a{
-                color: white;
-            }
+            color: white;
         }
     }
 `
@@ -299,11 +297,11 @@ function Home(){
                                             <HomeP>
                                                 {content[index][language][0]}
                                             </HomeP>
-                                            <GO>
-                                                <Link to={links[index]}>
+                                            <Link to={links[index]}>
+                                                <GO>
                                                     {content[index][language][1]}
-                                                </Link>
-                                            </GO>
+                                                </GO>
+                                            </Link>
                                         </HomeSideBoxexcontent>
                                     </HomeSideBoxex>
                                 </>
